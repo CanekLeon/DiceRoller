@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
+//se genera un Int llamado numSides para retornar un numsides aleatorio del 1 al numero que se le pase
 class Dice(private val numSides: Int) {
     fun roll(): Int {
         return(1..numSides).random()
